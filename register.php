@@ -55,7 +55,7 @@
 	<div id="loading-icon-bx"></div>
 	<div class="account-form">
 		<div class="account-head" style="background-image:url(assets/images/i4.jpeg); background-repeat: no-repeat; background-size: cover;">
-			<a href="index.html"><img src="assets/images/fff.jpeg" alt=""></a>
+			<a href="index.php"><img src="assets/images/fff.jpeg" alt=""></a>
 		</div>
 		<div class="account-form-inner">
 			<div class="account-container">
@@ -64,12 +64,13 @@
 					<p>Login Your Account <a href="login.html">Click here</a></p>
 				</div>	
 				<form class="contact-bx" method="post" action="register.php">
+				<?php include('errors.php') ?>
 					<div class="row placeani">
 						<div class="col-lg-12">
 							<div class="form-group">
 								<div class="input-group">
 									<label>Your Name</label>
-									<input name="dzName" type="text" required="" class="form-control">
+									<input name="username" type="text" required="" class="form-control">
 								</div>
 							</div>
 						</div>
@@ -77,7 +78,7 @@
 							<div class="form-group">
 								<div class="input-group">
 									<label>Your Email Address</label>
-									<input name="dzName" type="email" required="" class="form-control">
+									<input name="email" type="email" required="" class="form-control">
 								</div>
 							</div>
 						</div>
@@ -85,12 +86,18 @@
 							<div class="form-group">
 								<div class="input-group"> 
 									<label>Your Password</label>
-									<input name="dzEmail" type="password" class="form-control" required="">
+									<input name="password_1" type="password" class="form-control" required="">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group"> 
+									<label>Confirm Password</label>
+									<input name="password_2" type="password" class="form-control" required="">
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-12 m-b30">
-							<button name="submit" type="submit" value="Submit" class="btn button-md">Sign Up</button>
+							<button name="reg_user" type="submit" value="Submit" class="btn button-md">Sign Up</button>
 						</div>
 						<div class="col-lg-12">
 							<h6>Sign Up with Social media</h6>

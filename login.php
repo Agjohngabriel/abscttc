@@ -55,7 +55,7 @@
 	<div id="loading-icon-bx"></div>
 	<div class="account-form">
 		<div class="account-head" style="background-image:url(assets/images/i4.jpeg); background-repeat: no-repeat; background-size: cover;">
-			<a href="index.html"><img src="assets/images/fff.jpeg" alt=""></a>
+			<a href="index.php"><img src="assets/images/fff.jpeg" alt=""></a>
 		</div>
 		<div class="account-form-inner">
 			<div class="account-container">
@@ -63,13 +63,14 @@
 					<h2 class="title-head">Login to your <span>Account</span></h2>
 					<p>Don't have an account? <a href="register.html">Create one here</a></p>
 				</div>	
-				<form class="contact-bx">
+				<form class="contact-bx" method="post" action="login.php">
+					<?php include('errors.php'); ?>
 					<div class="row placeani">
 						<div class="col-lg-12">
 							<div class="form-group">
 								<div class="input-group">
 									<label>Your Name</label>
-									<input name="dzName" type="text" required="" class="form-control">
+									<input name="username" type="text" required="" class="form-control">
 								</div>
 							</div>
 						</div>
@@ -77,7 +78,7 @@
 							<div class="form-group">
 								<div class="input-group"> 
 									<label>Your Password</label>
-									<input name="dzEmail" type="password" class="form-control" required="">
+									<input name="password" type="password" class="form-control" required="">
 								</div>
 							</div>
 						</div>
@@ -91,7 +92,7 @@
 							</div>
 						</div>
 						<div class="col-lg-12 m-b30">
-							<button name="submit" type="submit" value="Submit" class="btn button-md">Login</button>
+							<button type="submit" value="Submit" class="btn button-md" name="login_user">Login</button>
 						</div>
 						<div class="col-lg-12">
 							<h6>Login with Social media</h6>
