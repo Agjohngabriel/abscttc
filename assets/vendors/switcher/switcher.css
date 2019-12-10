@@ -1,4 +1,4 @@
-.styleswitcher-right h6.switcher-title {
+/*.styleswitcher-right h6.switcher-title {
     font-weight: 500;
 	margin: 0 0 0 0;
 	font-size: 14px;
@@ -18,7 +18,7 @@
     width: 100%;
 }
 /* styleswitcher-right */
-.styleswitcher-right .switcher-title{
+/*.styleswitcher-right .switcher-title{
     font-weight: 800;
     margin: 10px 5px;
     text-transform: uppercase;
@@ -48,6 +48,7 @@
 	box-shadow:-3px 1px 5px rgba(0, 0, 0, 0.1); 
 }
 /* styleswitcher-right End */
+/*
 .switch-btn {
     background: #121921;
     box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.1);

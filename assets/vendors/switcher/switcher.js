@@ -1,4 +1,4 @@
-function addSwitcher()
+/*function addSwitcher()
 {
 	var dzSwitcher = '<div class="styleswitcher-right"> <div class="switcher-btn-bx"> <a class="switch-btn"> <span class="fa fa-cog"></span> </a> </div><div class="styleswitcher-inner"> <h6 class="switcher-title">Color Skin</h6> <ul class="color-skins"> <li><a class="theme-skin skin-1" href="?theme=css/skin/skin-1" title=""></a></li><li><a class="theme-skin skin-2" href="?theme=css/skin/skin-2" title=""></a></li><li><a class="theme-skin skin-3" href="?theme=css/skin/skin-3" title=""></a></li><li><a class="theme-skin skin-4" href="?theme=css/skin/skin-4" title=""></a></li></ul> </div></div>';
 	
@@ -91,7 +91,7 @@ $(function(){
 /* Theme Panel Save */
 	
 	/*var themeOption = [{'layout':[{'wide','boxed',}],'theme','header','bgcolor','bgpatten'}];*/
-	var themeOption = ['themeStandardColor','themeFullColor','layout','header','bgColor',,'bgImage','bgPatten'];
+	/*var themeOption = ['themeStandardColor','themeFullColor','layout','header','bgColor',,'bgImage','bgPatten'];
 	themeOption['layout'] = ['wide','boxed','frame','frame_value','layout_value'];
 	themeOption['themeStandardColor'] = ['skin-1','skin-2','skin-3','skin-4','skin-5','skin-6','skin-7','skin-8','themeStandardColor_value','themeStandardColor_logo'];
 	themeOption['themeFullColor'] = ['skin-1','skin-2','skin-3','skin-4','skin-5','skin-6','skin-7','skin-8','themeFullColor_value','themeFullColor_logo'];
@@ -146,7 +146,7 @@ jQuery(document).ready(function(){
 	var arr = JSON.parse(json_str);
 	*/
 	
-	
+/*	
 });
 
 function themeFramePadding(){
@@ -227,7 +227,7 @@ function setThemeLogo(themeOptionItemAttr){
 function setCookie(cname, cvalue, exhours) {
 		var d = new Date();
 		d.setTime(d.getTime() + (30*60*1000)); /* 30 Minutes*/
-		var expires = "expires="+ d.toString();
+/*		var expires = "expires="+ d.toString();
 		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
@@ -249,7 +249,7 @@ function getCookie(cname) {
 
 function deleteCookie(cname) {
 		var d = new Date();
-		d.setTime(d.getTime() + (1)); /* 1/1000 second*/
+		d.setTime(d.getTime() + (1)); /* 1/1000 second*//*
 		var expires = "expires="+ d.toString();
 		document.cookie = cname + "=1;" + expires + ";path=/";
 }
