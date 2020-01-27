@@ -695,6 +695,12 @@
 	display:none;
 }
 /* Header Extra Nav */
+#link{
+	color: #fff;
+}
+#link:hover{
+	color:#000;
+}
 .secondary-inner ul{
 	list-style:none;
 	padding:0;
@@ -1761,13 +1767,13 @@ footer h3 a,
 footer h4 a,
 footer h5 a,
 footer h6 a {
-    color: #b0b0b0;
+    color: #fff;
 }
 footer p,
 footer strong,
 footer b,
 footer {
-    color: #b0b0b0;
+    color: #fff;
 }
 footer h1 a,
 footer h2 a,
@@ -1776,18 +1782,18 @@ footer h4 a,
 footer h5 a,
 footer h6 a,
 footer p a {
-    color: #b0b0b0;
+    color: #fff;
 }
 
 footer .btn-link,
 footer a,
 footer p a {
-    color: #b0b0b0;
+    color: #fff;
 }
 footer a:active,
 footer a:focus,
 footer a:hover {
-    color: #b0b0b0;
+    color: #fff;
 }
 /* widget color */
 footer .widget_categories ul li a,
@@ -1798,7 +1804,7 @@ footer .widget_recent_comments ul li a,
 footer .widget_nav_menu li a,
 footer .widget_recent_entries ul li a,
 footer .widget_services ul li a {
-    color: #b0b0b0;
+    color: #fff;
 }
 footer.text-white .widget_categories ul li a, 
 footer.text-white .widget_archive ul li a, 
@@ -1874,7 +1880,7 @@ footer .widget_services ul li:hover {
 .footer-bottom {
     background-color:#303030;
     padding: 25px 0;
-    color: #b0b0b0;
+    color: #fff;
 	border-top:1px solid rgba(255,255,255,0.05);
 	font-family:rubik;
 }
@@ -2076,7 +2082,7 @@ button.back-to-top {
 	display: inline-block;
 	font-size: 13px;
 	text-transform: capitalize;
-	font-family: ;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	margin-right: 5px;
 }
 .media-post li a{

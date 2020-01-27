@@ -204,12 +204,12 @@
 	margin-top:0;
 	text-transform: capitalize;
 	font-size: 15px;
-	color: #404040;
+	color: #fff;
 	font-weight: 500;
 	font-family: roboto;
 }
 .widget .post-title a{
-	color:#000;
+	color:#fff;
 }
 .widget .post-title a:hover{
 	color:var(--primary);
@@ -254,11 +254,11 @@
 }
 .widget_recent_comments ul li {
     padding-left: 20px;
-    color: #999;
+    color: #fff;
 }
 /* widget meta*/
 .widget_meta ul li a abbr[title] {
-    color: #333;
+    color: #fff;
     border-bottom: none;
 }
 /*widget calender*/
