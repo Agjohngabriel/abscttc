@@ -50,14 +50,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 // Check if card Number exists, if yes then verify password
                 if($stmt->rowCount() == 1){
                     if($row = $stmt->fetch()){
-                        $id = isset($row["id"]);
                         $idn = isset($row["idn"]);
+                        $pass = isset($row["pass"]);
                         $hashed_password = $row["pass"];
                         if(password_verify($pass,$hashed_password)){
                             // Password is correct, so start a new session
                             session_start();
                             
-                            // Store data in session variables
+                            // Store data in session variables03331 	asdf123
                             $_SESSION["loggedin"] = true;
                             $_SESSION["idn"] = $idn;
                             $_SESSION["pass"] = $pass;                            
@@ -68,7 +68,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                         } else{
                             // Display an error message if password is not valid
 							$pass_err = "The Card Pin you entered was not valid.";
-							// header("location: admin/index.html");
                         }
                     }
                 } else{
