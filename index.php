@@ -1,4 +1,5 @@
 <?php 
+	$title = "Ascttc || Home";
 	include 'inc/header.php';
 ?>
 <!-- Header Top END ==== -->
